@@ -1,0 +1,445 @@
+*{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #0007D0;
+    background-size: cover;
+    background-position: center;
+    /*Fundo geral*/
+
+}
+
+header{
+
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .logo{
+
+    width: 115px;
+    height: 250px;
+    margin-right: auto;
+    position: relative;
+
+    /*Logo*/
+
+}
+
+header .navigation a{
+
+    color:#E1C5FF;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 25px;
+    transition: 0.3s;
+    transition-property: background;
+
+    /*Barra de navegação*/
+
+}
+
+header .navigation a:not(:last-child){
+
+    margin-right: 30px;    
+
+}
+
+header .navigation a:hover{
+
+    background: #fff;
+
+}
+
+.content{
+
+    max-width: max-content;
+    margin: 60px 90px;
+
+}
+
+.content .info h2{
+
+    color: #E1C5FF;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+
+}
+
+.content .info span{
+
+    color:#E1C5FF;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.content .info p{
+
+    color: #E1C5FF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.footer .endereco{
+
+    color: #E1C5FF;
+    margin: 60px 90px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+/*Daqui pra baixo é "Sobre"*/
+
+.content-sobre{
+
+    margin: 60px 90px;
+    display: table;
+
+}
+
+.info-sobre .img-sobre{
+
+    width: 450px;
+    display: table-cell;
+    float: left;
+
+}
+
+.info-sobre .img-sobre .span-legenda{
+
+    letter-spacing: 1px;
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #E1C5FF;
+
+}
+
+.info-sobre .texto-sobre{
+
+    color: #E1C5FF;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: table-cell;
+    float: right;
+    width: 750px;
+
+}
+
+/*Flexionando imagem ao lado do texto*/
+
+/*Daqui pra baixo é produtos*/
+
+.content-produtos{
+
+    margin: 60px 90px;
+    display: table;
+
+}
+
+.info-produtos .img-produtos{
+
+    width: 435px;
+    display: table-cell;
+    float: left;
+
+}
+
+.info-produtos .img-produtos h2{
+
+    color: #E1C5FF;
+
+}
+
+/*Acima, config página*/
+
+/*catphone*/
+
+.info-produtos .texto-catphone h2{
+
+    font-weight: 900;
+    text-align: center;
+    font-size: 25px;
+    color: #0007D0;
+    letter-spacing: 1px;
+    background-color:#E1C5FF;
+    border-radius: 14px;
+
+}
+
+.info-produtos .texto-catphone{
+
+    color: #E1C5FF;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    display: table-cell;
+    float: right;
+    width: 750px;
+    font-size: 24px;
+
+}
+
+/*catbook*/
+
+.info-produtos .texto-catbook h2{
+
+    font-weight: 900;
+    text-align: center;
+    font-size: 24px;
+    color: #0007D0;
+    letter-spacing: 1px;
+    background-color:#E1C5FF;
+    border-radius: 14px;
+
+}
+
+.info-produtos .texto-catbook{
+
+    color: #E1C5FF;
+    margin-top: 135px;
+    margin-bottom: 75px;
+    display: table-cell;
+    float: right;
+    width: 750px;
+    font-size: 24px;
+
+}
+
+/*catpods*/
+
+.info-produtos .texto-catpods h2{
+
+    font-weight: 900;
+    text-align: center;
+    font-size: 24px;
+    color: #0007D0;
+    letter-spacing: 1px;
+    background-color:#E1C5FF;
+    border-radius: 14px;
+
+}
+
+.info-produtos .texto-catpods{
+
+    color: #E1C5FF;
+    margin-top: 145px;
+    margin-bottom: 40px;
+    display: table-cell;
+    float: right;
+    width: 750px;
+    font-size: 21px;
+
+}
+
+/*Daqui pra baixo é contatos*/
+
+.content-contatos{
+
+    margin: 60px 90px;
+
+}
+
+.content-contatos h2{
+
+    color: #E1C5FF;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.content-contatos p{
+
+    color: #E1C5FF;
+    font-size: 25px;
+    margin-bottom: 5px;
+    
+
+}
+
+/*Formulario*/
+
+.form{
+
+    margin: 60px 90px; 
+
+}
+
+/*Config pág*/
+
+/*Titulos*/
+
+.form h2{
+
+    color: #E1C5FF;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px; 
+
+}
+
+.form h1{
+
+    color: #E1C5FF;
+    font-size: 20px;
+    margin-bottom: 11px;
+    font-weight: 800;
+
+}
+
+/*Inputs (reutilizar)*/
+
+.form .input-nome{
+
+    margin-bottom: 15px;
+    height: 40px;
+    width: 600px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E1C5FF;
+
+}
+
+.form .input-email{
+
+    margin-bottom: 15px;
+    height: 40px;
+    width: 600px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E1C5FF;
+
+}
+
+.form .input-endereço{
+
+    margin-bottom: 15px;
+    height: 40px;
+    width: 600px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E1C5FF;
+
+}
+
+.form .input-data{
+
+    margin-bottom: 15px;
+    height: 40px;
+    width: 600px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E1C5FF;
+
+}
+
+.form .input-texto{
+
+    margin-bottom: 15px;
+    height: 40px;
+    width: 600px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E1C5FF;
+
+}
+
+.form .input-btn{
+
+    margin-bottom: 15px;
+    height: 40px;
+    width: 65px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E1C5FF;
+
+}
+
+/*Config input (reutilizar)*/
+
+::placeholder{
+
+    font-size: 13px;
+    color:#0007D0;
+    opacity: 55%;
+    text-decoration: none;
+
+}
+
+/*Comunicados*/
+
+.content-comunicado{
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 200px;
+    
+}
+
+.content-comunicado .info-comunicado{
+
+    color: #0007D0;
+    font-size: 20px;
+    text-align: center;
+    background-color: #E1C5FF;
+    border-radius: 15px;
+
+}
+
+.content-comunicado .info-comunicado h2{
+
+    margin-top: 25px;
+    font-weight: 900;
+
+}
+
+.content-comunicado .info-comunicado p{
+
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header .navigation {
+        width: 100%;
+    }
+}
